@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+body {
+  font-family: 'Patrick Hand', cursive;
+}
+
 .dropdown-item.active, .dropdown-item:active {
   background-color: rgb(82, 200, 229);
   color: white;
