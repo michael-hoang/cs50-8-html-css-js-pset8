@@ -4,7 +4,7 @@ function spam() {
     for (let i = 0; i < 30; i++) {
         let spam = document.createElement('div');
         spam.className = 'spam';
-        spam.style.backgroundImage = "url('https://github.com/michael-hoang/cs50-8-html-css-js-pset8/blob/main/img/spam.png')";
+        spam.style.backgroundImage = "url('https://raw.githubusercontent.com/michael-hoang/cs50-8-html-css-js-pset8/main/img/spam.png')";
 
         let randomX = Math.random() * (window.innerWidth - 50);
         let randomY = Math.random() * (window.innerHeight - 50);
