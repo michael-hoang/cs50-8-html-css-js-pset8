@@ -42,7 +42,7 @@ body {
   display: inline-block;
   margin: 10px;
   position: relative;
-  width: 5%;
+  max-width: 100px;
 }
 
 #spam-me-btn {
